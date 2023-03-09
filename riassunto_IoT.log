@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  8 MAR 2023 23:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  9 MAR 2023 08:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,32 +299,35 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.21 	
-       [1] (./lez3/lez3.tex [2]
+       [1] (./lez3-progettazione/lez3.tex [2]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-<lez3/img/consumoEnergiaDispositivo.png, id=72, 797.22844pt x 445.665pt>
-File: lez3/img/consumoEnergiaDispositivo.png Graphic file (type png)
-<use lez3/img/consumoEnergiaDispositivo.png>
-Package pdftex.def Info: lez3/img/consumoEnergiaDispositivo.png  used on input 
-line 65.
+<lez3-progettazione/img/consumoEnergiaDispositivo.png, id=77, 797.22844pt x 445
+.665pt>
+File: lez3-progettazione/img/consumoEnergiaDispositivo.png Graphic file (type p
+ng)
+<use lez3-progettazione/img/consumoEnergiaDispositivo.png>
+Package pdftex.def Info: lez3-progettazione/img/consumoEnergiaDispositivo.png  
+used on input line 65.
 (pdftex.def)             Requested size: 345.0pt x 192.85626pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [3] [4 <./lez3/img/consumoEnergiaDispositivo.png>] (./riassunto_IoT.aux)
+) (./lez4-livelloDiRete/lez4.tex [3]) [4 <./lez3-progettazione/img/consumoEnerg
+iaDispositivo.png>] (./riassunto_IoT.aux)
 Package rerunfilecheck Info: File `riassunto_IoT.out' has not changed.
-(rerunfilecheck)             Checksum: 100D0A974256A9BA53E641474B907A60;939.
+(rerunfilecheck)             Checksum: D7FA1097F5521B4336502B47802CEB38;1063.
  ) 
 Here is how much of TeX's memory you used:
- 9763 strings out of 476855
- 153979 string characters out of 5822299
- 509424 words of memory out of 5000000
- 30810 multiletter control sequences out of 15000+600000
+ 9772 strings out of 476855
+ 154322 string characters out of 5822299
+ 510425 words of memory out of 5000000
+ 30813 multiletter control sequences out of 15000+600000
  481481 words of font info for 50 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 72i,8n,77p,508b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,8n,77p,522b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dis
@@ -345,10 +348,10 @@ texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist
 /fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/typ
 e1/public/cm-super/sfrm1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
 cm-super/sfti1000.pfb>
-Output written on riassunto_IoT.pdf (5 pages, 313794 bytes).
+Output written on riassunto_IoT.pdf (5 pages, 318122 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
