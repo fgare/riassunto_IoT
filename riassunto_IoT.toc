@@ -9,3 +9,6 @@
 \contentsline {subsection}{\numberline {1.6}Consumo potenza}{3}{subsection.1.6}%
 \contentsline {section}{\numberline {2}Livello di rete}{3}{section.2}%
 \contentsline {paragraph}{Tassonomia dei protocolli di routing}{4}{section*.2}%
+\contentsline {subsection}{\numberline {2.1}Flooding e Gossiping}{4}{subsection.2.1}%
+\contentsline {paragraph}{Protocollo di routing ideale}{5}{section*.3}%
+\contentsline {subsection}{\numberline {2.2}SPIN: Sensor Protocol for Information via Negotiation}{5}{subsection.2.2}%

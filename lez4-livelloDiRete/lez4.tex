@@ -5,7 +5,8 @@
 	
 	Risulta necessario utilizzare nuovi algoritmi di routing che tengano conto della limitata potenza, capacità computazionale e memoria disponibili, dei frequenti cambiamenti nella topologia e dell'assenza di un identificativo globale dei dispositivi.
 	
-	\paragraph{Tassonomia dei protocolli di routing}
+\paragraph{Tassonomia dei protocolli di routing}
+
 	Si distinguono tre categorie di protocolli di routing
 	\begin{itemize}
 		\item Data Centric Protocols\\
@@ -18,11 +19,48 @@
 			MECN, SMECN, GAF, GEAR
 	\end{itemize}
 
+\subsection{Flooding e Gossiping}
+
+	Il \emph{flooding} è l'approccio convenzionale e consiste nell'invio broadcast dei dati a tutti i nodi vicini;
+	il \emph{gossiping} prevede invece l'invio dei dati a un solo nodo vicino scelto casualmente.
+	Sebbene semplici e reattive queste tecniche implicano una serie di svantaggi:
 	\begin{itemize}
-		\item Flooding
-		\item Gossiping
-		\item SPIN-1
-		\item SPIN-2
-		\item Directed Diffusion
-		\item LEACH
+		\item Implosion
+		\item Overlap
+		\item Resource Blindness
+		\item Power inefficient
 	\end{itemize}
+
+	Il gossiping è migliore rispetto al flooding in quanto invia i dati a un solo nodo per risparmiare energia ed evita implosion.
+	
+\paragraph{Protocollo di routing ideale}
+	
+	Le caratteristiche che il protocollo idea dovrebbe avere sono:
+	\begin{itemize}
+		\item selezione del percorso più breve per l'invio dei dati
+		\item evitare overlap
+		\item minimo consumo di energia
+		\item conoscenza globale della topologia
+	\end{itemize}
+
+\subsection{SPIN: Sensor Protocol for Information via Negotiation}
+
+	Alla base del protocollo SPIN ci sono due idee: i sensori si scambiano informazioni su dati che sono già in loro possesso o che desiderano avere, risparmiano così energia e lavorano in modo efficiente; i sensori devono monitorare ed adattarsi alle proprie risorse energetiche.
+	
+	Usa tre tipi di messaggi: ADV, REQ, DATA nel seguente modo:
+	\begin{itemize}
+		\item quando un sensore ha qualcosa da trasmettere invia in broadcast un \emph{advertisement packet} (ADV)
+		\item i nodi interessati invio un \emph{request packet} (REQ)
+		\item i dati sono inviati ai nodi che li richiedono
+		\item la procedura viene ripetuta finché tutti i nodi non hanno una copia
+	\end{itemize}
+
+	SPIN è basato su \emph{data centric routing}, ossia i nodi inviano in broadcast l'advertisement nel caso ci siano dati disponibili e aspettano le richieste delle sink interessate, risulta quindi un ottimo protocollo per disseminare le informazioni tra tutti i nodi.
+	
+	
+	
+	
+	
+	
+	
+	
