@@ -12,3 +12,19 @@
 \contentsline {subsection}{\numberline {2.1}Flooding e Gossiping}{4}{subsection.2.1}%
 \contentsline {paragraph}{Protocollo di routing ideale}{5}{section*.3}%
 \contentsline {subsection}{\numberline {2.2}SPIN: Sensor Protocol for Information via Negotiation}{5}{subsection.2.2}%
+\contentsline {paragraph}{SPIN-1}{5}{section*.4}%
+\contentsline {paragraph}{SPIN-2}{5}{section*.5}%
+\contentsline {paragraph}{Conclusioni}{5}{section*.6}%
+\contentsline {subsection}{\numberline {2.3}Directed Diffusion Routing Algorithm}{6}{subsection.2.3}%
+\contentsline {paragraph}{Naming scheme}{6}{section*.7}%
+\contentsline {paragraph}{Directed Diffusion vs SPIN}{6}{section*.8}%
+\contentsline {paragraph}{Vantaggi e svantaggi}{6}{section*.9}%
+\contentsline {subsection}{\numberline {2.4}Low Energy Adaptive Clustering Hierarchy (LEACH)}{6}{subsection.2.4}%
+\contentsline {paragraph}{Fase di setup}{6}{section*.10}%
+\contentsline {paragraph}{Fase steady}{7}{section*.11}%
+\contentsline {paragraph}{Vantaggi}{7}{section*.12}%
+\contentsline {section}{\numberline {3}Protocollo SETA}{7}{section.3}%
+\contentsline {paragraph}{Aspetti chiave}{7}{section*.13}%
+\contentsline {paragraph}{Procedura di trasmissione}{7}{section*.14}%
+\contentsline {paragraph}{Valuzione delle prestazioni}{8}{section*.15}%
+\contentsline {section}{\numberline {4}Wireless Multimedia Sensors Networks (WMSN)}{8}{section.4}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  10 MAR 2023 10:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  18 MAR 2023 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -219,35 +219,76 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@height=\dimen144
 \Gin@req@width=\dimen145
 )
+(c:/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen146
+\lightrulewidth=\dimen147
+\cmidrulewidth=\dimen148
+\belowrulesep=\dimen149
+\belowbottomsep=\dimen150
+\aboverulesep=\dimen151
+\abovetopsep=\dimen152
+\cmidrulesep=\dimen153
+\cmidrulekern=\dimen154
+\defaultaddspace=\dimen155
+\@cmidla=\count276
+\@cmidlb=\count277
+\@aboverulesep=\dimen156
+\@belowrulesep=\dimen157
+\@thisruleclass=\count278
+\@lastruleclass=\count279
+\@thisrulewidth=\dimen158
+)
+(c:/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(c:/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen159
+\ar@mcellbox=\box51
+\extrarowheight=\dimen160
+\NC@list=\toks19
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box52
+)
+\TX@col@width=\dimen161
+\TX@old@table=\dimen162
+\TX@old@col=\dimen163
+\TX@target=\dimen164
+\TX@delta=\dimen165
+\TX@cols=\count280
+\TX@ftn=\toks20
+)
 (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count276
-\l__pdf_internal_box=\box51
+\l__color_backend_stack_int=\count281
+\l__pdf_internal_box=\box53
 )
 (./riassunto_IoT.aux)
 \openout1 = `riassunto_IoT.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Info: Redefining \it@ocap on input line 16.
-LaTeX Info: Redefining \it@ccap on input line 16.
-Package hyperref Info: Link coloring OFF on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Info: Redefining \it@ocap on input line 18.
+LaTeX Info: Redefining \it@ccap on input line 18.
+Package hyperref Info: Link coloring OFF on input line 18.
  (./riassunto_IoT.out) (./riassunto_IoT.out)
 \@outlinefile=\write3
 \openout3 = `riassunto_IoT.out'.
@@ -255,17 +296,17 @@ Package hyperref Info: Link coloring OFF on input line 16.
 
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
-\scratchdimen=\dimen146
-\scratchbox=\box52
-\nofMPsegments=\count278
-\nofMParguments=\count279
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count280
-\MPscratchDim=\dimen147
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count282
+\scratchdimen=\dimen166
+\scratchbox=\box54
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen167
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks22
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -276,11 +317,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
+(Font)              <12> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
+(Font)              <6> on input line 20.
  [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./riassunto_Io
@@ -298,36 +339,48 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 	
+l.23 	
        [1] (./lez3-progettazione/lez3.tex [2]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-<lez3-progettazione/img/consumoEnergiaDispositivo.png, id=87, 797.22844pt x 445
-.665pt>
+<lez3-progettazione/img/consumoEnergiaDispositivo.png, id=107, 797.22844pt x 44
+5.665pt>
 File: lez3-progettazione/img/consumoEnergiaDispositivo.png Graphic file (type p
 ng)
 <use lez3-progettazione/img/consumoEnergiaDispositivo.png>
 Package pdftex.def Info: lez3-progettazione/img/consumoEnergiaDispositivo.png  
-used on input line 65.
-(pdftex.def)             Requested size: 345.0pt x 192.85626pt.
+used on input line 66.
+(pdftex.def)             Requested size: 241.49895pt x 134.99937pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./lez4-livelloDiRete/lez4.tex [3] [4 <./lez3-progettazione/img/consumoEnergi
-aDispositivo.png>]) [5] (./riassunto_IoT.aux)
+aDispositivo.png>] [5] [6]) (./lez6-SETA/lez6-seta.tex
+<lez6-SETA/SETA_NetworkModel.png, id=145, 452.4403pt x 423.08063pt>
+File: lez6-SETA/SETA_NetworkModel.png Graphic file (type png)
+<use lez6-SETA/SETA_NetworkModel.png>
+Package pdftex.def Info: lez6-SETA/SETA_NetworkModel.png  used on input line 9.
+
+(pdftex.def)             Requested size: 172.5pt x 161.30167pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7]) (./lez7-WMSN/lez7-WMSN.tex) [8 <./lez6-SETA/SETA_NetworkModel.png>]
+(./riassunto_IoT.aux)
 Package rerunfilecheck Info: File `riassunto_IoT.out' has not changed.
-(rerunfilecheck)             Checksum: CEBC63AC08BC3CB64BB2154379585AFA;1567.
+(rerunfilecheck)             Checksum: C21BC7F9E74E060D6F32453EC3A4471D;2532.
  ) 
 Here is how much of TeX's memory you used:
- 9778 strings out of 476855
- 154398 string characters out of 5822299
- 510428 words of memory out of 5000000
- 30815 multiletter control sequences out of 15000+600000
+ 10026 strings out of 476855
+ 158532 string characters out of 5822299
+ 514064 words of memory out of 5000000
+ 31021 multiletter control sequences out of 15000+600000
  481481 words of font info for 50 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 72i,8n,77p,522b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,10n,77p,522b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dis
@@ -348,10 +401,10 @@ texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist
 /fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/typ
 e1/public/cm-super/sfrm1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
 cm-super/sfti1000.pfb>
-Output written on riassunto_IoT.pdf (6 pages, 322498 bytes).
+Output written on riassunto_IoT.pdf (9 pages, 542121 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 207 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 

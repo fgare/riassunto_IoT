@@ -6,7 +6,6 @@
 	Risulta necessario utilizzare nuovi algoritmi di routing che tengano conto della limitata potenza, capacità computazionale e memoria disponibili, dei frequenti cambiamenti nella topologia e dell'assenza di un identificativo globale dei dispositivi.
 	
 \paragraph{Tassonomia dei protocolli di routing}
-
 	Si distinguono tre categorie di protocolli di routing
 	\begin{itemize}
 		\item Data Centric Protocols\\
@@ -18,6 +17,7 @@
 		\item Location Based Protocols\\
 			MECN, SMECN, GAF, GEAR
 	\end{itemize}
+
 
 \subsection{Flooding e Gossiping}
 
@@ -34,7 +34,6 @@
 	Il gossiping è migliore rispetto al flooding in quanto invia i dati a un solo nodo per risparmiare energia ed evita implosion.
 	
 \paragraph{Protocollo di routing ideale}
-	
 	Le caratteristiche che il protocollo idea dovrebbe avere sono:
 	\begin{itemize}
 		\item selezione del percorso più breve per l'invio dei dati
@@ -42,6 +41,7 @@
 		\item minimo consumo di energia
 		\item conoscenza globale della topologia
 	\end{itemize}
+
 
 \subsection{SPIN: Sensor Protocol for Information via Negotiation}
 
@@ -57,10 +57,83 @@
 
 	SPIN è basato su \emph{data centric routing}, ossia i nodi inviano in broadcast l'advertisement nel caso ci siano dati disponibili e aspettano le richieste delle sink interessate, risulta quindi un ottimo protocollo per disseminare le informazioni tra tutti i nodi.
 	
+\paragraph{SPIN-1}
+	Si tratta di un protocollo di handshake a tre fasi, ha il vantaggio di essere semplice e di evitare l'implosione ma al contempo implica un elevato consumo di potenza a causa dell'overhead introdotto.
+	
+\paragraph{SPIN-2}
+	Si tratta di una variante di SPIN-1 che modifica il comportamento del sensore sulla base dell'energia disponibile.
+	Quando la disponibilità di energia è massima il protocollo si comporta come SPIN-1, quando invece l'energia residua scende al di sotto di una certa soglia il nodo riduce la propria partecipazione, attivandosi solo se dispone di un'autonomia sufficiente a fargli completare le fasi rimanenti (stato di \emph{dormant}).
+	
+\paragraph{Conclusioni}
+	\begin{description}
+		\item[SPIN-1] Previene l'invio di messaggi ridondanti e permette un risparmio di energia del 70\% rispetto al flooding
+		\item[SPIN-2] risparmio energetico del 10\% rispetto a SPIN-1 e del 60\% rispetto a flooding
+	\end{description}
 	
 	
+\subsection{Directed Diffusion Routing Algorithm}
+
+	Si tratta di un algoritmo \emph{data-centric} in quanto un sensore non necessita di un'identità univoca ma ogni dato trasmesso è identificato mediante i suoi attributi.
 	
+\paragraph{Naming scheme}
+	I dati generati dai sensori sono identificati dalla coppia attributo-valore; per generare una query occorre usare una coppia attributo-valore come nome dell'oggetto.
 	
+\paragraph{Directed Diffusion vs SPIN} \mbox{}\\[1ex]
+	\begin{tabularx}{\textwidth}{XX}
+		\toprule
+		Directed Diffusion & SPIN\\
+		\midrule
+		Sink interroga i sensori per verificare la disponibilità di un dato inviando tramite flooding una regola. & I sensori dichiarano la disponibilità di dati, lasciando alla sink la possibilità di richiederli.\\
+		\bottomrule
+	\end{tabularx}
+
+\paragraph{Vantaggi e svantaggi} \mbox{}\\[1ex]
+	\begin{tabularx}{\textwidth}{XX}
+		\toprule
+		Vantaggi & Svantaggi\\
+		\midrule
+		\begin{itemize}
+			\item DD è data centric, non necessita quindi di uno schema di indirizzamento
+			\item ogni nodo può fare aggregazione, caching e sensing
+			\item DD è efficiente a livello energetico in quanto è \emph{on demand} e non necessita di conoscere la topologia globale della rete
+		\end{itemize}
+		& \begin{itemize}
+			\item Non è sempre utilizzabile in quanto si tratta di un \emph{query driven data delivery model}
+			\item non è una buona scelta per applicazioni che necessita di un continuo invio di dati
+			\item i \emph{naming schemes} sono dipendenti dall'applicazione
+			\item il processo di abbinamento tra dato e query causa un leggero overhead
+		\end{itemize}\\
+		\bottomrule
+	\end{tabularx}
+
+
+\subsection{Low Energy Adaptive Clustering Hierarchy (LEACH)}
+	
+	LEACH è un protocollo basato su cluster con il fine di minimizzare la dissipazione di energia nelle reti di sensori.
+	L'idea alla base è quella di selezionare casualmente alcuni sensori come cluster head e generare i cluster sulla base dell'intensità del segnale ricevuto.\\
+	Si distinguono due fasi: \emph{set-up phase} e \emph{steady phase}.
+	
+\paragraph{Fase di setup}
+	Nella fase di set-up ogni sensore genera un numero casuale tra 0 e 1, se il numero è minore di una certa soglia il nodo diventa cluster head;
+	dopo che i cluster head sono stati selezionati i cluster head stessi comunicano agli altri nodi che sono i nuovi cluster head;
+	terminata la fase di set-up ogni nodo accede alla rete attraverso il cluster head che richiede la minore energia per essere raggiunto.\\
+	Quando i nodi ricevono l'advertisement determinano il cluster di appartenenza sulla base dell'intensità del segnale ricevuto, informano quindi il cluster head di voler partecipare al cluster; a questo punto i cluster head assegnano ai nodi l'intervallo di tempo in cui possono trasmettere.
+	
+\paragraph{Fase steady}
+	I sensori rilevano e trasmettono dati ai cluster head, i quali aggregano i dati. Dopo un certo periodo trascorso nella fase steady, la rete torna nella fase di setup e ricomincia con la selezione di nuovi cluster head.
+	
+	E' difficile determinare il numero ottimale di cluster: pochi cluster significa che i nodi si trovano lontani dal proprio cluster head, al contrario molti cluster implica che molti nodi inviano dati alla sink.
+	
+\paragraph{Vantaggi}
+	LEACH presenta numerosi vantaggi: 
+	\begin{itemize}
+		\item risparmio energetico rispetto a comunicazioni dirette
+		\item clustering dinamico che permette di sopperire agevolmente alla perdita di alcuni nodi
+		\item l'essere completamente distribuito e non richiedere la conoscenza globale della rete
+		\item adozione di un single hop routing, ossia ogni nodo trasmette direttamente al cluster head
+	\end{itemize}
+	Tuttavia presenta lo svantaggio di non essere applicabile per regioni molto ampie.
+		
 	
 	
 	
