@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  19 MAR 2023 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  21 MAR 2023 11:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -345,7 +345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-<lez3-progettazione/img/consumoEnergiaDispositivo.png, id=107, 797.22844pt x 44
+<lez3-progettazione/img/consumoEnergiaDispositivo.png, id=118, 797.22844pt x 44
 5.665pt>
 File: lez3-progettazione/img/consumoEnergiaDispositivo.png Graphic file (type p
 ng)
@@ -358,7 +358,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./lez4-livelloDiRete/lez4.tex [3] [4 <./lez3-progettazione/img/consumoEnergi
 aDispositivo.png>] [5] [6]) (./lez6-SETA/lez6-seta.tex
-<lez6-SETA/SETA_NetworkModel.png, id=145, 452.4403pt x 423.08063pt>
+<lez6-SETA/SETA_NetworkModel.png, id=155, 452.4403pt x 423.08063pt>
 File: lez6-SETA/SETA_NetworkModel.png Graphic file (type png)
 <use lez6-SETA/SETA_NetworkModel.png>
 Package pdftex.def Info: lez6-SETA/SETA_NetworkModel.png  used on input line 9.
@@ -386,21 +386,23 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 10.
 
-) [9] (./riassunto_IoT.aux)
+<lez7-WMSN/differentBitstreamsVideoVMSN.png, id=176, 418.56375pt x 326.72063pt>
 
-Package rerunfilecheck Warning: File `riassunto_IoT.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `riassunto_IoT.out':
-(rerunfilecheck)             Before: C21BC7F9E74E060D6F32453EC3A4471D;2532
-(rerunfilecheck)             After:  EF9919A8B202ACB80FCC2AE41A487BC3;2871.
+File: lez7-WMSN/differentBitstreamsVideoVMSN.png Graphic file (type png)
+<use lez7-WMSN/differentBitstreamsVideoVMSN.png>
+Package pdftex.def Info: lez7-WMSN/differentBitstreamsVideoVMSN.png  used on in
+put line 18.
+(pdftex.def)             Requested size: 172.5pt x 134.64928pt.
+) (./lez7-WMSN/lez7-RFID-NFC.tex [9 <./lez7-WMSN/differentBitstreamsVideoVMSN.p
+ng>]) [10] (./riassunto_IoT.aux)
+Package rerunfilecheck Info: File `riassunto_IoT.out' has not changed.
+(rerunfilecheck)             Checksum: F68AB97ED6660A53864582B72613DF0F;3115.
  ) 
 Here is how much of TeX's memory you used:
- 10030 strings out of 476855
- 158573 string characters out of 5822299
- 514066 words of memory out of 5000000
- 31022 multiletter control sequences out of 15000+600000
+ 10049 strings out of 476855
+ 159118 string characters out of 5822299
+ 514164 words of memory out of 5000000
+ 31033 multiletter control sequences out of 15000+600000
  482257 words of font info for 51 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  72i,10n,77p,522b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -425,10 +427,10 @@ texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2022/texmf-dist
 e1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
 cm-super/sfrm1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/s
 fti1000.pfb>
-Output written on riassunto_IoT.pdf (10 pages, 546042 bytes).
+Output written on riassunto_IoT.pdf (11 pages, 802335 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
