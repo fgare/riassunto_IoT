@@ -33,6 +33,7 @@
 	\end{figure}
 
 	RFID sfrutta le frequenze tra 100 e X MHz in quanto risultano essere quelle ottimali per la propagazione del segnale in ambienti affollati (Figura \ref{fig:frequenzaOttimale}).
+	%completare valore X da appunti
 	
 	\begin{figure}[h]
 		\centering
@@ -43,3 +44,35 @@
 
 
 \section{Near Field Communication (NFC)}
+
+	\paragraph{Connessione tra due dispositivi}
+	\begin{enumerate}
+		\item La bobina nel primo dispositivo è attraversata da una corrente che genera un campo magnetico percepito dal secondo dispositivo
+		\item il secondo dispositivo identifica il campo magnetico ricevuto come un segnale valido e offre la connessione
+		\item il primo dispositivo accetta la connessione e inizia la transazione
+	\end{enumerate}
+
+	Grazie ai dispositivi dotati di NFC gli utenti possono
+	eseguire pagamenti o usare coupon tramite il dispositivo, senza estrarre la carta di credito o debito;
+	trasferire file;
+	scaricare informazioni circa oggetti, servizi o luoghi;
+	mostrare documenti digitale come le carte di imbarco.
+	
+	I rischi legati all'utilizzo di questa tecnologia sono essenzialmente legati
+	alla privacy (quali dati vengono trasmessi, processati e memorizzati?),
+	alla sicurezza (cosa succede se smarrisco lo smarthphone?)
+	e al \emph{sentinel hacking}, in cui un tag NFC potrebbe essere nascosto in un punto e registrare le informazioni degli smartphone con cui viene in contatto.
+	
+	I principali vantaggi della tecnologia NFC restano comunque la comunicazione bi-direzionale, l'alto livello di sicurezza grazie alle tecniche di cifratura, l'alta velocità di riconoscimento con una minima probabilità di errore.
+	
+	\paragraph{Alternative}
+	Un'alternativa a NFC sono i codici a barre o i codici QR.
+	Ognuna di queste tecnologie presenta comunque alcuni punti di forza, motivo per cui NFC non mira a sostituire i lettori ottici.
+	In Figura \ref{fig:comparazioneRFID-barcode} è riportato un confronto.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{lez7/tabellaComparativaRFID-barcode.png}
+		\caption{Comparazione tra RFID e codici a barre}
+		\label{fig:comparazioneRFID-barcode}
+	\end{figure}
