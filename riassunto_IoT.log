@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  22 MAR 2023 22:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  23 MAR 2023 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,7 +422,7 @@ Package pdftex.def Info: lez7/useCasesRFID.png  used on input line 30.
 <lez7/optimalFrequency.png, id=197, 575.14874pt x 376.40625pt>
 File: lez7/optimalFrequency.png Graphic file (type png)
 <use lez7/optimalFrequency.png>
-Package pdftex.def Info: lez7/optimalFrequency.png  used on input line 40.
+Package pdftex.def Info: lez7/optimalFrequency.png  used on input line 39.
 (pdftex.def)             Requested size: 207.0021pt x 135.47168pt.
 
 [10 <./lez7/useCasesRFID.png> <./lez7/optimalFrequency.png>]
@@ -430,22 +430,22 @@ Package pdftex.def Info: lez7/optimalFrequency.png  used on input line 40.
 File: lez7/tabellaComparativaRFID-barcode.png Graphic file (type png)
 <use lez7/tabellaComparativaRFID-barcode.png>
 Package pdftex.def Info: lez7/tabellaComparativaRFID-barcode.png  used on input
- line 75.
+ line 74.
 (pdftex.def)             Requested size: 276.00105pt x 183.48367pt.
 )
 (./lez8/lez8-nanotecnologie.tex [11 <./lez7/tabellaComparativaRFID-barcode.png>
-]) [12] (./riassunto_IoT.aux)
+] [12]) [13] (./riassunto_IoT.aux)
 Package rerunfilecheck Info: File `riassunto_IoT.out' has not changed.
 (rerunfilecheck)             Checksum: E684C45D8C4B335FE5D13FE8DCD202B8;3438.
  ) 
 Here is how much of TeX's memory you used:
- 11378 strings out of 476855
- 185281 string characters out of 5822299
- 536947 words of memory out of 5000000
- 32335 multiletter control sequences out of 15000+600000
- 483022 words of font info for 52 fonts, out of 8000000 for 9000
+ 11383 strings out of 476855
+ 185331 string characters out of 5822299
+ 537947 words of memory out of 5000000
+ 32336 multiletter control sequences out of 15000+600000
+ 483708 words of font info for 53 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 72i,10n,77p,522b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,10n,77p,526b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dis
@@ -466,12 +466,12 @@ texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2022/texmf-dist
 /fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2022/texmf-dist/fonts/typ
 e1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
 cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/s
-frm1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1000.pf
-b>
-Output written on riassunto_IoT.pdf (13 pages, 1375538 bytes).
+frm1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti0800.pf
+b><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on riassunto_IoT.pdf (14 pages, 1415627 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 69 named destinations out of 1000 (max. 500000)
  175 words of extra memory for PDF output out of 10000 (max. 10000000)
 
