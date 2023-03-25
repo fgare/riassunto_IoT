@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  23 MAR 2023 18:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  25 MAR 2023 20:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -279,35 +279,60 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count282
 Package caption Info: hyperref package is loaded.
 )
+(c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
+\MT@toks=\toks21
+\MT@tempbox=\box53
+\MT@count=\count283
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
+LaTeX Info: Redefining \leftprotrusion on input line 1046.
+LaTeX Info: Redefining \rightprotrusion on input line 1056.
+LaTeX Info: Redefining \textls on input line 1234.
+\MT@outer@kern=\dimen174
+LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
+\MT@listname@count=\count284
+
+(c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 900.
+LaTeX Info: Redefining \lslig on input line 900.
+\MT@outer@space=\skip52
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(c:/texlive/2022/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
+))
 (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count283
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count285
+\l__pdf_internal_box=\box54
 )
 (./riassunto_IoT.aux)
 \openout1 = `riassunto_IoT.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Info: Redefining \it@ocap on input line 20.
-LaTeX Info: Redefining \it@ccap on input line 20.
-Package hyperref Info: Link coloring OFF on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Info: Redefining \it@ocap on input line 21.
+LaTeX Info: Redefining \it@ccap on input line 21.
+Package hyperref Info: Link coloring OFF on input line 21.
  (./riassunto_IoT.out) (./riassunto_IoT.out)
 \@outlinefile=\write3
 \openout3 = `riassunto_IoT.out'.
@@ -315,17 +340,17 @@ Package hyperref Info: Link coloring OFF on input line 20.
 
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count284
-\scratchdimen=\dimen174
-\scratchbox=\box54
-\nofMPsegments=\count285
-\nofMParguments=\count286
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count287
-\MPscratchDim=\dimen175
-\MPnumerator=\count288
-\makeMPintoPDFobject=\count289
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count286
+\scratchdimen=\dimen175
+\scratchbox=\box55
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen176
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks23
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -337,12 +362,32 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \microtypecontext on input line 21.
+Package microtype Info: Applying patch `item' on input line 21.
+Package microtype Info: Applying patch `toc' on input line 21.
+Package microtype Info: Applying patch `eqnum' on input line 21.
+Package microtype Info: Applying patch `footnote' on input line 21.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 21.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 22.
+(Font)              <12> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 22.
+(Font)              <6> on input line 23.
  [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./riassunto_Io
@@ -360,7 +405,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 	
+l.26 	
        [1] (./lez3-progettazione/lez3.tex [2]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
@@ -374,9 +419,6 @@ ng)
 Package pdftex.def Info: lez3-progettazione/img/consumoEnergiaDispositivo.png  
 used on input line 66.
 (pdftex.def)             Requested size: 241.49895pt x 134.99937pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 ) (./lez4-livelloDiRete/lez4.tex [3] [4 <./lez3-progettazione/img/consumoEnergi
 aDispositivo.png>] [5] [6]) (./lez6-SETA/lez6-seta.tex
 <lez6-SETA/SETA_NetworkModel.png, id=167, 452.4403pt x 423.08063pt>
@@ -385,14 +427,11 @@ File: lez6-SETA/SETA_NetworkModel.png Graphic file (type png)
 Package pdftex.def Info: lez6-SETA/SETA_NetworkModel.png  used on input line 9.
 
 (pdftex.def)             Requested size: 172.5pt x 161.30167pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7]) (./lez7/lez7-WMSN.tex [8 <./lez6-SETA/SETA_NetworkModel.png>]
-Overfull \hbox (10.20766pt too wide) in paragraph at lines 10--10
-[]\T1/cmr/bx/n/12 Secure Se-lec-ti-ve Drop-ping Con-ge-stion Con-trol (S$[]$DCC
-) 
+ [7])
+(./lez7/lez7-WMSN.tex [8 <./lez6-SETA/SETA_NetworkModel.png>]
+Overfull \hbox (2.53215pt too wide) in paragraph at lines 10--10
+[]\T1/cmr/bx/n/12 (-20) Secure Se-lec-ti-ve Drop-ping Con-ge-stion Con-trol (S$
+[]$DCC) 
  []
 
 
@@ -414,19 +453,19 @@ Package pdftex.def Info: lez7/differentBitstreamsVideoVMSN.png  used on input l
 ine 18.
 (pdftex.def)             Requested size: 172.5pt x 134.64928pt.
 ) (./lez7/lez7-RFID-NFC.tex [9 <./lez7/differentBitstreamsVideoVMSN.png>]
-<lez7/useCasesRFID.png, id=195, 703.12688pt x 384.6872pt>
+<lez7/useCasesRFID.png, id=196, 703.12688pt x 384.6872pt>
 File: lez7/useCasesRFID.png Graphic file (type png)
 <use lez7/useCasesRFID.png>
 Package pdftex.def Info: lez7/useCasesRFID.png  used on input line 30.
 (pdftex.def)             Requested size: 276.00105pt x 151.00179pt.
-<lez7/optimalFrequency.png, id=197, 575.14874pt x 376.40625pt>
+<lez7/optimalFrequency.png, id=198, 575.14874pt x 376.40625pt>
 File: lez7/optimalFrequency.png Graphic file (type png)
 <use lez7/optimalFrequency.png>
 Package pdftex.def Info: lez7/optimalFrequency.png  used on input line 39.
 (pdftex.def)             Requested size: 207.0021pt x 135.47168pt.
 
 [10 <./lez7/useCasesRFID.png> <./lez7/optimalFrequency.png>]
-<lez7/tabellaComparativaRFID-barcode.png, id=208, 801.74532pt x 532.99126pt>
+<lez7/tabellaComparativaRFID-barcode.png, id=209, 801.74532pt x 532.99126pt>
 File: lez7/tabellaComparativaRFID-barcode.png Graphic file (type png)
 <use lez7/tabellaComparativaRFID-barcode.png>
 Package pdftex.def Info: lez7/tabellaComparativaRFID-barcode.png  used on input
@@ -434,18 +473,41 @@ Package pdftex.def Info: lez7/tabellaComparativaRFID-barcode.png  used on input
 (pdftex.def)             Requested size: 276.00105pt x 183.48367pt.
 )
 (./lez8/lez8-nanotecnologie.tex [11 <./lez7/tabellaComparativaRFID-barcode.png>
-] [12]) [13] (./riassunto_IoT.aux)
+]
+<lez8/ICNdisegno.png, id=224, 516.42938pt x 389.20406pt>
+File: lez8/ICNdisegno.png Graphic file (type png)
+<use lez8/ICNdisegno.png>
+Package pdftex.def Info: lez8/ICNdisegno.png  used on input line 34.
+(pdftex.def)             Requested size: 207.0021pt x 156.0055pt.
+ [12]
+<lez8/futureInternet.png, id=236, 706.13812pt x 319.1925pt>
+File: lez8/futureInternet.png Graphic file (type png)
+<use lez8/futureInternet.png>
+Package pdftex.def Info: lez8/futureInternet.png  used on input line 41.
+(pdftex.def)             Requested size: 310.4979pt x 140.35258pt.
+<lez8/ICN-iot-bigPicture.png, id=237, 649.67719pt x 330.48468pt>
+File: lez8/ICN-iot-bigPicture.png Graphic file (type png)
+<use lez8/ICN-iot-bigPicture.png>
+Package pdftex.def Info: lez8/ICN-iot-bigPicture.png  used on input line 48.
+(pdftex.def)             Requested size: 207.0021pt x 105.29836pt.
+<lez8/ICN-iot-middleware.png, id=238, 522.45187pt x 282.30469pt>
+File: lez8/ICN-iot-middleware.png Graphic file (type png)
+<use lez8/ICN-iot-middleware.png>
+Package pdftex.def Info: lez8/ICN-iot-middleware.png  used on input line 55.
+(pdftex.def)             Requested size: 241.49895pt x 130.49493pt.
+) [13 <./lez8/ICNdisegno.png> <./lez8/futureInternet.png>] [14 <./lez8/ICN-iot-
+bigPicture.png> <./lez8/ICN-iot-middleware.png>] (./riassunto_IoT.aux)
 Package rerunfilecheck Info: File `riassunto_IoT.out' has not changed.
 (rerunfilecheck)             Checksum: E684C45D8C4B335FE5D13FE8DCD202B8;3438.
  ) 
 Here is how much of TeX's memory you used:
- 11383 strings out of 476855
- 185331 string characters out of 5822299
- 537947 words of memory out of 5000000
- 32336 multiletter control sequences out of 15000+600000
- 483708 words of font info for 53 fonts, out of 8000000 for 9000
+ 13325 strings out of 476855
+ 220368 string characters out of 5822299
+ 600966 words of memory out of 5000000
+ 34061 multiletter control sequences out of 15000+600000
+ 490130 words of font info for 149 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 72i,10n,77p,526b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,10n,77p,1010b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dis
@@ -468,10 +530,10 @@ e1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/
 cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/s
 frm1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti0800.pf
 b><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on riassunto_IoT.pdf (14 pages, 1415627 bytes).
+Output written on riassunto_IoT.pdf (15 pages, 1700584 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 285 compressed objects within 3 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 45251 words of extra memory for PDF output out of 51595 (max. 10000000)
 
